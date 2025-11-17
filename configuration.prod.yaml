@@ -1,6 +1,21 @@
 apimServiceName: prod-apim-cicd
 namedValues:
+  - name: environment
+    properties:
+      displayName: environment
+      value: "https://www.prod.search2.com"
+  - name: secret1
+    properties:
+      displayName: prod
+      value: "PRODSecret
+  - name: kv-secret-demo
+    properties:
+      displayName: kv-secret-demo
+      keyVault:
+        identityClientId: 78eb5f9c-7b54-4d3e-a6b8-5de71e6b323b
+        secretIdentifier: https://neelck-kv.vault.azure.net/secrets/kv-secret-demo-prod/d520b536e8d44f53afcca5e1f52ce12d
 loggers:
 diagnostics:
 backends:
+
 apis:
