@@ -7,7 +7,7 @@ namedValues:
   - name: secret1
     properties:
       displayName: prod
-      value: "PRODSecret
+      value: "PRODSecret"
   - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
@@ -19,3 +19,4 @@ diagnostics:
 backends:
 
 apis:
+
